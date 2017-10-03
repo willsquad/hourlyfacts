@@ -1,6 +1,6 @@
 <?php
 
-$title = 'Hourly Facts | Developement';
+$title = 'Hourly Facts';
 include('include/header.php');
 ?>
 
