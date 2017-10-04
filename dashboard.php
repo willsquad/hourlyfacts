@@ -78,7 +78,7 @@ include('include/header.php');
                                 <tr>
                                   <th>#</th>
                                   <th>Tasks</th>
-                                  <th>Source</th>
+                                  <th data-title="Category">Category</th>
                                   <th></th>
                                 </tr>
                               </thead>
@@ -88,7 +88,7 @@ include('include/header.php');
                                   <td data-title="#">1</td>
                                   <td data-title="Task">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
                                   <td data-title="Source">
-                                    <a href="http://demos.willsquad.com/hourlyfacts/dashboard.php" target="_blank" rel="noreferrer noopener"><i class="fa fa-external-link"></i></a>
+                                    Sports
                                   </td>
                                   <td data-button=""><button class="accept_task_button">Accept</button></td>
                                 </tr>
@@ -97,7 +97,7 @@ include('include/header.php');
                                   <td data-title="#">2</td>
                                   <td data-title="Task">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vel.</td>
                                   <td data-title="Source">
-                                    <a href="https://www.google.com" target="_blank" rel="noreferrer noopener"><i class="fa fa-external-link"></i></a>
+                                    Politics
                                   </td>
                                   <td data-button=""><button class="accept_task_button">Accept</button></td>
                                 </tr>
@@ -106,7 +106,7 @@ include('include/header.php');
                                   <td data-title="#">3</td>
                                   <td data-title="Task">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
                                   <td data-title="Source">
-                                    <a href="https://www.google.com" target="_blank" rel="noreferrer noopener"><i class="fa fa-external-link"></i></a>
+                                    Science
                                   </td>
                                   <td data-button=""><button class="accept_task_button">Accept</button></td>
                                 </tr>

@@ -477,6 +477,9 @@ body {
             }
             &.logout_a {
                 color: red;
+                &:hover {
+                    color: red;
+                }
             }
         }
     }
@@ -607,15 +610,22 @@ $table-border-color:            #e0e0e0;
         font-size: 15px;
       }
     > td[data-title="Source"] {
-        text-align: center;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            //color: #999;
+            color: #FF5722;
         }
     > td[data-title="Status"] {
-        text-align: center;
-        color: #3F51B5;
-        font-size: 14px;
+            text-align: center;
+            color: #3F51B5;
+            font-size: 14px;
         }
     > td[data-title="Date"] {
-        font-size: 13px;
+            font-size: 14px;
+            text-align: center;
+            color: #999;
+            font-weight: 500;
         }
         > th[data-title="Status"] {
             text-align: center;
@@ -623,7 +633,7 @@ $table-border-color:            #e0e0e0;
         > th[data-title="Date"] {
             text-align: center;
         }
-        > td[data-title="Date"] {
+        > th[data-title="Category"] {
             text-align: center;
         }
     }
@@ -850,7 +860,8 @@ $table-border-color:            #e0e0e0;
 
 .accept_task_button {
     cursor: pointer;
-    background: #0073D0;
+    //background: #0073D0;
+    background: #5767DE;
     color: #eee;
     border: none;
     font-size: 12px;
@@ -883,7 +894,7 @@ $table-border-color:            #e0e0e0;
     color: #000;
     font-family: roboto;
     @include media-breakpoint-down(sm) {
-        font-size: 2.5em;
+        font-size: 28px;
     }
 }
 
