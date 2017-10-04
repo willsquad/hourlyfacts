@@ -16,6 +16,28 @@
 
     <!-- Navigation Menu -->
     <nav id="header_nav">
+        <div class="container">
+            <div class="nav_inner_row">
 
+               <div class="logo_and_menu_icon_div">
+                    <!--<div class="menu_icon_div">
+                        <i class="material-icons">menu</i>
+                    </div>-->
+                    <div class="hourlyfacts_logo_div">
+                        <img src="images/hourly_facts_logo_white.png">
+                    </div>
+               </div>
+
+                <div class="search_div">
+                   <i class="material-icons">search</i>
+                    <input class="hourlyfacts_search" type="text" placeholder="Search...">
+                </div>
+
+                <div class="login_register_div hidden-sm-down">
+                    <a class="login_register_a">Login</a>
+                    <a class="login_register_a">Register</a>
+                </div>
+            </div>
+        </div>
     </nav>
     <!-- Navigation Menu -->

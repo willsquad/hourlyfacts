@@ -10,10 +10,93 @@ body {
     background: $body_bg;
 }
 
+/**** HEADER NAVIGATION ****/
+
 #header_nav {
     background-color: #5767DE;
     height: 85px;
 }
+
+.nav_inner_row {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_and_menu_icon_div {
+    display: flex;
+    align-items: center;
+    .menu_icon_div {
+        color: #fff;
+        margin-right: 1.5em;
+        position: relative;
+        top:5px;
+        cursor: pointer;
+        i {
+            font-size: 2em;
+        }
+    }
+}
+.hourlyfacts_logo_div {
+    max-width: 100px;
+    img {
+        width: 100%;
+    }
+}
+
+.search_div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    @include media-breakpoint-down(md) {
+        width: 200px;
+    }
+    i {
+        position: absolute;
+        left: 0px;
+        color: #D1D1D1;
+    }
+    .hourlyfacts_search {
+        border:none;
+        border-bottom:1px solid #D0D0D0;
+        outline:none;
+        padding: 10px;
+        background-color: transparent;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        &::placeholder {
+          color: #D1D1D1;
+        }
+    }
+}
+
+.login_register_div {
+    font-family: roboto;
+    display: flex;
+    align-items: center;
+    line-height: 14px;
+    .login_register_a {
+        color: #fff !important;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 0px 10px;
+        border-right: 1px solid #ddd;
+        &:last-child {
+            border-right: none;
+            padding-right: 0px;
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+/**** End of Header Navigation ****/
+
 
 /**** Index.php ****/
 .landing_lhs {
