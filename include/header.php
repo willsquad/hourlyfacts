@@ -19,23 +19,27 @@
         <div class="container">
             <div class="nav_inner_row">
 
-               <div class="logo_and_menu_icon_div">
-                    <!--<div class="menu_icon_div">
-                        <i class="material-icons">menu</i>
-                    </div>-->
+               <div class="logo_and_categories_div">
                     <div class="hourlyfacts_logo_div">
-                        <img src="images/hourly_facts_logo_white.png">
+                        <img src="images/hourlyfacts_logo_white_tm.png">
+                    </div>
+                    <div class="categories_div hidden-md-down">
+                        <a href="">News</a>
+                        <a href="">Sports</a>
+                        <a href="">Science</a>
+                        <a href="">Entertainment</a>
+                        <a href="">Politics</a>
+                        <a href="" class="more_categories">More <i class="material-icons">arrow_drop_down</i></a>
                     </div>
                </div>
 
-                <div class="search_div">
-                   <i class="material-icons">search</i>
-                    <input class="hourlyfacts_search" type="text" placeholder="Search...">
-                </div>
-
-                <div class="login_register_div hidden-sm-down">
-                    <a class="login_register_a">Login</a>
-                    <a class="login_register_a">Register</a>
+                <div class="search_and_menu_icon_div">
+                    <div class="search_div">
+                        <i class="material-icons">search</i>
+                    </div>
+                    <div class="menu_icon_div">
+                        <i class="material-icons">menu</i>
+                    </div>
                 </div>
             </div>
         </div>

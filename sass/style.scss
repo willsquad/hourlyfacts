@@ -24,78 +24,146 @@ body {
     justify-content: space-between;
 }
 
-.logo_and_menu_icon_div {
+.logo_and_categories_div {
     display: flex;
     align-items: center;
-    .menu_icon_div {
-        color: #fff;
-        margin-right: 1.5em;
-        position: relative;
-        top:5px;
-        cursor: pointer;
-        i {
-            font-size: 2em;
-        }
-    }
-}
-.hourlyfacts_logo_div {
-    max-width: 100px;
-    img {
-        width: 100%;
-    }
-}
 
-.search_div {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 350px;
-    @include media-breakpoint-down(md) {
-        width: 200px;
-    }
-    i {
-        position: absolute;
-        left: 0px;
-        color: #D1D1D1;
-    }
-    .hourlyfacts_search {
-        border:none;
-        border-bottom:1px solid #D0D0D0;
-        outline:none;
-        padding: 10px;
-        background-color: transparent;
-        width: 100%;
-        color: #fff;
-        text-align: center;
-        font-size: 15px;
-        &::placeholder {
-          color: #D1D1D1;
+    .hourlyfacts_logo_div {
+        max-width: 100px;
+        min-width: 75px;
+        margin-right: 4em;
+        img {
+            width: 100%;
         }
     }
-}
-
-.login_register_div {
-    font-family: roboto;
-    display: flex;
-    align-items: center;
-    line-height: 14px;
-    .login_register_a {
-        color: #fff !important;
-        text-decoration: none;
-        font-size: 14px;
-        padding: 0px 10px;
-        border-right: 1px solid #ddd;
-        &:last-child {
-            border-right: none;
-            padding-right: 0px;
-        }
-        &:hover {
+    .categories_div {
+        a{
             color: #fff;
+            font-family: poppins;
+            font-size: 15px;
+            margin-right: 2em;
+            text-decoration: none;
+            &.more_categories {
+                display: inline-flex;
+                align-items: center;
+            }
         }
+    }
+}
+
+.search_and_menu_icon_div {
+    display: flex;
+    align-items: center;
+}
+
+.menu_icon_div, .search_div {
+    color: #fff;
+    margin-left: 1.5em;
+    cursor: pointer;
+    display: flex;
+    i {
+        font-size: 1.8em;
     }
 }
 
 /**** End of Header Navigation ****/
+
+/**** Start of Footer ****/
+#footer_top {
+    height: 115px;
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+        height: auto;
+        padding: 20px 0px;
+    }
+    .logo {
+        width: 105px;
+        @include media-breakpoint-down(sm) {
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .social {
+        .social_icons {
+            color: #424242;
+            background-color: #fff;
+            width: 35px;
+            height: 35px;
+            display: inline-block;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0em .5em;
+        }
+    }
+
+    .newsletter_signup_input {
+        padding: 7px 14px;
+        font-family: roboto;
+        font-size: 14px;
+    }
+
+    .newsletter_signup_button {
+        background-color: #5767DE;
+        outline: none;
+        padding: 8px 12px;
+        border: none;
+        color: #fff;
+        font-family: roboto;
+        font-size: 14px;
+        position: relative;
+        left: -4px;
+        line-height: 23px;
+    }
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+        display: block;
+    }
+    & > div {
+        @include media-breakpoint-down(sm) {
+            padding: 15px 0px;
+            text-align: center;
+        }
+    }
+}
+
+#footer_bottom {
+    height: 50px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color:#ccc;
+    font-family: roboto;
+    @include media-breakpoint-down(sm) {
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .footer_links {
+        color: #ccc !important;
+        padding: 0em 1em;
+        border-right: 1px solid #999;
+        &:last-child {
+            border-right: none;
+        }
+        &:first-child {
+            padding-left: 0px;
+        }
+    }
+}
+/**** End of Footer ****/
 
 
 /**** Index.php ****/
