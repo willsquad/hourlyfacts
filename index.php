@@ -17,6 +17,9 @@ include('include/header.php');
                         <img src="images/protest.jpg" alt="Protest">
                         <div class="overlay  d-flex flex-column justify-content-end">
                             <div class="title_and_time">
+                                <div class="category_label">
+                                    Politics
+                                </div>
                                 <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, perferendis.</h2>
                                 <p>Posted 22 minutes ago</p>
                             </div>
@@ -41,6 +44,9 @@ include('include/header.php');
                         <img src="images/astronaut.jpg" alt="Astronaut">
                         <div class="overlay  d-flex flex-column justify-content-end">
                             <div class="title_and_time">
+                               <div class="category_label">
+                                    Technology
+                                </div>
                                 <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nesciunt.</h2>
                                 <p>Posted 30 minutes ago</p>
                             </div>
@@ -69,6 +75,9 @@ include('include/header.php');
                 <div class="newscard no_media">
                     <div class="summary">
                         <div class="title_and_time">
+                           <div class="category_label">
+                                Sports
+                            </div>
                             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusamus quia omnis.</h2>
                             <p>Posted 45 minutes ago</p>
                         </div>
@@ -91,6 +100,9 @@ include('include/header.php');
                 <div class="newscard no_media no_media_summary">
                     <div class="summary">
                         <div class="title_and_time">
+                           <div class="category_label">
+                                News
+                            </div>
                             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusamus quia omnis.</h2>
                             <p>Posted 45 minutes ago</p>
 
@@ -140,10 +152,6 @@ include('include/header.php');
                         <div class="col-10 col-sm-12 col-md-9 col-lg-10 headline_div">Lorem ipsum dolor sit amet, conse ctetur.</div>
                     </div>
 
-                    <div class="top_story row no-gutters d-flex align-items-center">
-                        <div class="col-2 col-sm-12 col-md-3 col-lg-2 image_div"><img src="images/popcorn.jpg"></div>
-                        <div class="col-10 col-sm-12 col-md-9 col-lg-10 headline_div">Lorem ipsum dolor sit amet, Ratione?</div>
-                    </div>
 
             </div>
             <!-- Landing RHS -->

@@ -22,4 +22,13 @@ $(document).ready(function() {
     $(document).on('click', '.save_pass_cancel', function(){
         $('.settings_tab_js').click();
     });
+
+    /** Category Name click **/
+    $(document).on('click', '.header_categories_a_js', function(e) {
+        e.preventDefault();
+        var category_name = $(this).text();
+        var href = $(this).attr('href');
+        console.log(href);
+        document.location = href + "?name=" + category_name;
+    });
 });

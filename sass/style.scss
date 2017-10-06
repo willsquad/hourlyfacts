@@ -190,6 +190,20 @@ body {
     @include media-breakpoint-down(md) {
         min-height: auto;
     }
+    .category_label {
+        font-family: poppins;
+        font-size: 10px;
+        margin-bottom: 10px;
+        //background: #5767de;
+        background: rgba(0,0,0,0.5);
+        display: inline-block;
+        padding: 4px 8px;
+        text-shadow: none;
+        border-radius: 1px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        color: #fff;
+    }
     .image_div {
         height: 350px;
         background-size: cover !important;
@@ -253,7 +267,8 @@ body {
             width: $book_icon_circle_width;
             height: $book_icon_circle_width;
             border-radius: $book_icon_circle_width;
-            background-color: #00AFFF;
+            //background-color: #00AFFF;
+            background-color: #4CAF50;
             position: relative;
             top: -28px;
             left: -14px;
@@ -311,11 +326,17 @@ body {
 }
 
 .landing_rhs {
-
+    //background-color: #fbfbfb;
 }
 
 .top_story {
-    margin-bottom: 30px;
+    //margin-bottom: 25px;
+
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #eee; */
+    /* padding-bottom: 12px; */
+    background: #f7f7f7;
+    padding: 10px;
 
     .image_div {
         //min-width: $top_story_image_width;
@@ -330,7 +351,7 @@ body {
         //padding: 10px 10px 10px 0px;
         padding: 10px;
         font-family: roboto;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         color: #111;
         //min-width: 300px;
@@ -372,6 +393,64 @@ body {
     }
 }
 /**** End of Article.php ****/
+
+/**** Start of Category.php ****/
+.category_top_row{
+    margin-top: 2em;
+}
+
+.category_lhs {
+    //padding-top: 2em;
+}
+
+.category_heading {
+    font-family: poppins;
+    font-size: 30px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    margin-bottom: 1em;
+}
+
+.category_rhs_heading {
+    margin: 0em 0em 1em;
+}
+
+.latest_news {
+    //background: #fff;
+    //min-height: calc(100vh - 250px);
+    //height: 150vh;
+    height: auto;
+    padding-bottom: 5px;
+    //margin-top:5em;
+}
+
+.load_more_div {
+    margin: 2.5em 0em 5em;
+    text-align: center;
+}
+
+.load_more_button {
+    background-color: #5f5f5f;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 12px;
+    font-family: roboto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.category_2_white_bg {
+    margin-top: 0px;
+    padding-top: 2em;
+    background-color: #fff;
+    .newscard .footer_div {
+        background: #f4f4f4;
+    }
+}
+/**** End of Category.php ****/
 
 
 /**** Login.php ****/

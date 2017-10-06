@@ -21,15 +21,17 @@
 
                <div class="logo_and_categories_div">
                     <div class="hourlyfacts_logo_div">
-                        <img src="images/hourlyfacts_logo_white_tm.png">
+                        <a href="index.php">
+                            <img src="images/hourlyfacts_logo_white_tm.png">
+                        </a>
                     </div>
                     <div class="categories_div hidden-md-down">
-                        <a href="">News</a>
-                        <a href="">Sports</a>
-                        <a href="">Science</a>
-                        <a href="">Entertainment</a>
-                        <a href="">Politics</a>
-                        <a href="" class="more_categories">More <i class="material-icons">arrow_drop_down</i></a>
+                        <a class="header_categories_a_js" href="category.php">News</a>
+                        <a class="header_categories_a_js" href="category.php">Sports</a>
+                        <a class="header_categories_a_js" href="category.php">Science</a>
+                        <a class="header_categories_a_js" href="category.php">Entertainment</a>
+                        <a class="header_categories_a_js" href="category.php">Politics</a>
+                        <a href="category.php" class="more_categories">More <i class="material-icons">arrow_drop_down</i></a>
                     </div>
                </div>
 
