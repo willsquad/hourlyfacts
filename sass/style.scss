@@ -36,6 +36,7 @@ body {
         max-width: 100px;
         min-width: 75px;
         margin-right: 4em;
+        user-select: none;
         img {
             width: 100%;
         }
@@ -47,6 +48,7 @@ body {
             font-size: 15px;
             margin-right: 2em;
             text-decoration: none;
+            user-select: none;
             &.more_categories {
                 display: inline-flex;
                 align-items: center;
@@ -58,6 +60,7 @@ body {
 .search_and_menu_icon_div {
     display: flex;
     align-items: center;
+    user-select: none;
 }
 
 .menu_icon_div, .search_div {
@@ -471,6 +474,18 @@ body {
     }
 }
 /**** End of Category.php ****/
+
+
+/**** Start of Search Results ****/
+.search_heading {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    & > i.material-icons::after {
+        content: "";
+        margin-right: 10px;
+    }
+}
+/**** End of Search Results ****/
 
 
 /**** Login.php ****/
