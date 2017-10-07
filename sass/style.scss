@@ -73,6 +73,35 @@ body {
     }
 }
 
+/* Start of search div and input */
+.search_input_div {
+    width: 77%;
+    position: absolute;
+    top: 22px;
+    right: 67px;
+    .search_input {
+        padding: 10px 40px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+
+    }
+    .close_search {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .search_icon_in_input {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+}
+/* Endo f search div and input */
+
 /**** End of Header Navigation ****/
 
 /**** Start of Footer ****/
@@ -219,7 +248,8 @@ body {
         background-size: cover !important;
         position: relative;
         @include media-breakpoint-down(md) {
-            height: 250px;
+            //height: 250px;
+            max-height: auto;
         }
         img {
             width: 100%;

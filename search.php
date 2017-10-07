@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['q']) && ctype_alnum($_GET['q']) && strlen($_GET['q']) <= 25) {
+if(isset($_GET['q']) && strlen($_GET['q']) > 0 && strlen($_GET['q']) <= 25) {
     $search_query = (string)$_GET['q'];
 } else {
     $search_query = '';
@@ -8,8 +8,10 @@ if(isset($_GET['q']) && ctype_alnum($_GET['q']) && strlen($_GET['q']) <= 25) {
 
 if(strlen($search_query) == 0) {
     $search = "Search";
+    $search_input = '';
 } else if (strlen($search_query) > 0) {
     $search = "Search results for \"<strong>$search_query</strong>\"";
+    $search_input = "$search_query";
 }
 
 $title = "Search | Hourly Facts";

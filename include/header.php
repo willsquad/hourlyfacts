@@ -42,6 +42,13 @@
                     <div class="menu_icon_div">
                         <i class="material-icons">menu</i>
                     </div>
+                    <div class="search_input_div" style="<?php echo isset($search_input)?"":"display:none;" ?>">
+                        <form action="search.php" method="get">
+                            <i class="material-icons search_icon_in_input">search</i>
+                            <input type="text" class="search_input" placeholder="search" name="q" value="<?php echo isset($search_input)?"$search_query":"" ?>" <?php echo isset($search_input)?"":"autofocus" ?>>
+                            <i class="material-icons close_search">close</i>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

@@ -41,4 +41,15 @@ $(document).ready(function() {
         console.log($.trim(category_name));
         document.location = "category.php?name="+$.trim(category_name);
     });
+
+    /** Search input display **/
+    $(document).on('click', '.search_div', function(){
+        $('.search_input_div').animate({width:'show'},350);
+    });
+
+    $(document).on('click', '.close_search', function(){
+        $('.search_input_div').animate({width:'hide'},350);
+    });
+
+
 });
