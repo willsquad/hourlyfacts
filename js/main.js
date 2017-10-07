@@ -31,4 +31,14 @@ $(document).ready(function() {
         console.log(href);
         document.location = href + "?name=" + category_name;
     });
+
+    $(document).on('click', '.title_and_time h2', function(){
+        document.location = 'article.php';
+    });
+
+    $(document).on('click', '.newscard .category_label', function() {
+        var category_name = $(this).text();
+        console.log($.trim(category_name));
+        document.location = "category.php?name="+$.trim(category_name);
+    });
 });

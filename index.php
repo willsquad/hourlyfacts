@@ -5,7 +5,7 @@ include('include/header.php');
 ?>
 
     <!-- Content -->
-    <div class="container">
+    <div class="container body_container">
         <div class="row">
             <div class="col-12 col-sm-8 landing_lhs">
                 <h2 class="landing_headings">Trending Now</h2>
@@ -31,8 +31,7 @@ include('include/header.php');
                             <span class="views separator"></span>
                             <span class="views">63 <span class="views_text">Shares</span></span>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <span class="icon_circle d-flex justify-content-center align-items-center"><img src="images/book-icon.png"></span>
+                        <div>
                         </div>
                     </div>
                 </div>
@@ -64,8 +63,7 @@ include('include/header.php');
                             <span class="views separator"></span>
                             <span class="views">97 <span class="views_text">Shares</span></span>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <span class="icon_circle d-flex justify-content-center align-items-center"><img src="images/book-icon.png"></span>
+                        <div>
                         </div>
                     </div>
                 </div>
@@ -88,8 +86,7 @@ include('include/header.php');
                             <span class="views separator"></span>
                             <span class="views">50 <span class="views_text">Shares</span></span>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <span class="icon_circle d-flex justify-content-center align-items-center"><img src="images/book-icon.png"></span>
+                        <div>
                         </div>
                     </div>
                 </div>
@@ -118,8 +115,7 @@ include('include/header.php');
                             <span class="views separator"></span>
                             <span class="views">81 <span class="views_text">Shares</span></span>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <span class="icon_circle d-flex justify-content-center align-items-center"><img src="images/book-icon.png"></span>
+                        <div>
                         </div>
                     </div>
                 </div>

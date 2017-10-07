@@ -5,11 +5,14 @@ include('include/header.php');
 ?>
 
     <!-- Content -->
-    <div class="container">
+    <div class="container body_container">
         <div class="row">
             <div class="col-12 col-sm-8 landing_lhs article_div">
                 <!-- Newscard Media With Summary-->
                 <div class="title_and_time">
+                   <div class="category_label">
+                        Politics
+                    </div>
                     <h2>NASA Astronauts Available for Interviews Before Space Station Mission</h2>
                     <p>Posted 30 minutes ago</p>
                 </div>
@@ -17,7 +20,7 @@ include('include/header.php');
                     <div class="image_div">
                         <img src="images/astronaut.jpg" alt="Astronaut">
                     </div>
-                    <div class="summary">
+                    <div class="summary article_page_summary">
                         <div class="summary_content">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugit quod impedit id rerum itaque quisquam dolores ullam architecto maxime in est quasi enim voluptatem eum excepturi provident doloremque, quis adipisci obcaecati commodi libero et. Facere earum explicabo incidunt alias est, ducimus, ipsam, tempora magnam, pariatur inventore maiores voluptas numquam!
                             <br><br>
